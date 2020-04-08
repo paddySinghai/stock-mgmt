@@ -1,0 +1,8 @@
+com\payconiq\stockMgmt\controller\StockDetailsControllerTest.class
+com\payconiq\stockMgmt\service\StockDetailsServiceTest.class
+com\payconiq\stockMgmt\util\CommonUtilTest.class
+com\payconiq\stockMgmt\repository\StockHistoryRepositoryTest.class
+com\payconiq\stockMgmt\controller\StockMgmtControllerTest.class
+com\payconiq\stockMgmt\service\StockMgmtServiceTest.class
+com\payconiq\stockMgmt\repository\StockMgmtRepositoryTest.class
+com\payconiq\stockMgmt\StockMgmtApplicationTests.class
