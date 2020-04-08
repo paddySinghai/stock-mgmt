@@ -14,7 +14,7 @@ Things you need to get the project up and running on a local machine:
 
 **Rest Services**
  * Build the jar file using the command: mvn clean install
- * Build the docker image of the same using the command: docker build -f Dockerfile -tstock-mgmt .
+ * Build the docker image of the same using the command: docker build -f Dockerfile -t stock-mgmt .
  * Run the docker image using the command: docker run -p 8080:8080 -t stock-mgmt .
  * REST services can be accessed on http://localhost:8080/api/stocks
 
