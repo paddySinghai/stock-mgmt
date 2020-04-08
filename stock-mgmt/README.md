@@ -19,7 +19,7 @@ Clone the git repository in a local directory using git clone<repository_name> c
 
 ### Deployment on Local Machine
 1. Build the jar file using the command: mvn clean install.
-2. Build the docker image of the same using the command: <B> docker build -f Dockerfile -tstock-mgmt .</B>
+2. Build the docker image of the same using the command: <B> docker build -f Dockerfile -t stock-mgmt .</B>
 3. Image details can be viewed using <B> docker image ls </B>
 4. Run the docker image using the command: <B> docker run -p 8080:8080 -t stock-mgmt . </B>
 5. Service to create new Stock:: Request Type: POST || URL: http://localhost:8080/api/stocks 
