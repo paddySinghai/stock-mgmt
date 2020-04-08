@@ -1,14 +1,14 @@
 # stock-mgmt
 Stock Management Case
 
-#Getting Started
+## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a system.
 
-#Prerequisites
+## Prerequisites
 Things you need to get the project up and running on a local machine:
 * Docker latest version
 
-#Building and Running the application
+## Building and Running the application
 
 **Rest Services**
  * Build the jar file using mvn clean install
