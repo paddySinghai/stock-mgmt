@@ -18,10 +18,10 @@ Clone the git repository in a local directory using git clone<repository_name> c
 
 
 ### Deployment on Local Machine
-1. Build the jar file using mvn clean install.
-2. Build the docker image of the same using <B> docker build -f Dockerfile -tstock-mgmt .</B>
+1. Build the jar file using the command: mvn clean install.
+2. Build the docker image of the same using the command: <B> docker build -f Dockerfile -tstock-mgmt .</B>
 3. Image details can be viewed using <B> docker image ls </B>
-4. Run the docker image on Tomcat using <B> docker run -p 8080:8080 -t stock-mgmt . </B>
+4. Run the docker image using the command: <B> docker run -p 8080:8080 -t stock-mgmt . </B>
 5. Service to create new Stock:: Request Type: POST || URL: http://localhost:8080/api/stocks 
 6. Update the price of a single stock:: Request Type: PUT || URL: http://localhost:8080/api/stocks/{id}
 7. Return the historical price changes of a stock:: Request Type: GET || URL: http://localhost:8080/api/stocks/{id}/history 
