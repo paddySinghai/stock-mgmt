@@ -18,6 +18,6 @@ Things you need to get the project up and running on a local machine:
 
 
 **Front end**
- * Build the docker image of the same using <b> docker build -t stock-mgmt-fe:prod .<b>
- * Run the docker image on Tomcat using <b> docker run -p 8000:80 stock-mgmt-fe:prod .<b> 
- * Open 'http://localhost:8000/' in the web browser to open the front end of the application</b>
+ * Build the docker image of the same using  docker build -t stock-mgmt-fe:prod .
+ * Run the docker image on Tomcat using  docker run -p 8000:80 stock-mgmt-fe:prod .
+ * Open 'http://localhost:8000/' in the web browser to open the front end of the application
